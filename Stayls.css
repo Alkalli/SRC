@@ -1,0 +1,333 @@
+/*
+96989d - тусклый цвет текста 
+dcddde - стандартный цвет текста 
+36393f - цвет фона за текстом 
+202225 - цвет фона за навигацией 
+
+Шрифт похожий на дискорд font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+*/
+
+body { 
+    background-color: #36393f;
+    color: #dcddde;
+}
+
+.name {
+    padding-bottom: 30px;
+}
+
+ /* .jar img {
+    border-radius: 50%;
+    width: 75px;
+    
+} 
+
+.jar:hover {
+    opacity: 0.5;
+    
+    border-radius: 20px;
+    
+} */
+
+.Navigation img:hover {
+
+    opacity: 0.5;
+    
+    border-radius: 20px;
+}
+
+.Navigation img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+.activ  {
+
+    box-shadow: 0px 0px 20px gold;
+}
+
+ .Navigation {
+     /* float: bottom ; 
+     border-radius: 20px; 
+    
+    padding-bottom: 15px; 
+    padding-right: 10px; 
+    border: 4px solid black; 
+    margin-left: 0; 
+   left: 5px;  */
+    width: 75px   ;
+    
+
+}
+  
+ .n1 { 
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    width: 75px 
+}
+.n2{
+    position: fixed;
+    top: 95px;
+    left: 5px;
+}
+.n3{
+    position: fixed;
+    top: 180px;
+    left: 5px;
+}
+.n4{
+    position: fixed;
+    top: 260px;
+    left: 5px;
+}
+
+.n5{
+    position: fixed;
+    top: 340px;
+    left: 5px;
+}
+.n6{
+    position: fixed;
+    top: 420px;
+    left: 5px;
+    
+} 
+
+
+.box   { 
+    position: fixed;
+    /* margin:0px; */
+    width: 90px;
+    height: 11000px;
+    background: #202225 ;
+    border-left-width: 55px #202225 ;
+    top: 0px;
+    left: 0px;
+    box-shadow: 1px 0px 5px #202225
+    /* border: 4px solid black  ; */
+    
+}
+
+.osnov  {
+    max-width: 75%;
+    margin: auto;
+    
+
+}
+
+
+.logo {
+    padding: 20px;
+    width: 10%;
+    margin: auto;
+    
+}
+ .link:hover {
+ opacity: 0.7;
+
+ }
+
+.link a {
+    color: #96989d;
+
+}
+.img2 {
+    /* width: 800px; */
+    padding-bottom: 10px;
+    width: 50%;
+    height: 50%;
+    border-radius: 28px;
+}
+    .spis {
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+        .soder {
+        display: flex;
+        }
+        /* Дальше пошла страница с новостями */
+
+        /* Страница с информацией */
+
+        /* Страница с скринотами */
+
+        /* Страница с мемами */
+
+        /* страница с таблицей лидеров  */
+    .zaezd  {
+        width: 100%;
+        margin-bottom: 100px;
+        
+    }
+
+    .zaezd td {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .zaezd tr:nth-child(even) {
+        background: #3c3f46;
+        
+    }
+
+   
+
+    
+
+    
+    .avatar {
+        margin-right: 25px;
+        width: 100px;
+        margin-left: 200px;
+        box-shadow: 10px 10px 20px black;
+      
+    /* width: 50%; */
+    /* height: 100px; */
+
+    }
+    .admin  {
+     color: darkorange;
+    }
+
+    .Verified{
+        color: green;
+    }
+
+    .Club-Member {
+        /* color: darkred; */
+        color: brown;
+    }
+
+    .Deamon {
+        color: black;
+    }
+
+    .serg {
+        color:#dcddde ;
+    }
+
+    .nikdata {
+        display: flex;
+    }
+
+    .sms {
+            display: flex;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } 
+    .smsh img {
+        border-radius: 50%  ;
+        
+    }
+
+    .smsh  {
+        /* display: flex; */
+        padding-top: 0px;
+    }
+
+    .nik {
+            /*  */
+            /* padding-left: 20px; */
+            
+            /* top: 10px; */
+            padding: 0px;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            margin-right: 20px;
+        }
+        
+    .smsb { 
+        color: #96989d ;
+        /* padding-left: 100px; */
+        /* padding-right: 1500px; */
+        /* margin-top: 50px; */
+        margin-bottom: 10px;
+        /* margin-left: 40px; */
+        
+        
+    }
+
+    .smsb img {
+        border-radius: 15px;
+        width: 60%;
+    }
+
+
+
+
+
+
+
+
+    .reclamna {
+        
+        position: fixed;
+        /* position: relative; */
+        right: 10px;
+        bottom: 10px;
+        /* height: 300px; */
+    }
+
+    .reclamna hr {
+
+        margin-top: 30px;
+    }
+
+    .okno {
+        border-radius: 50%;
+        margin-left: 80%;
+        
+        
+    }
+
+    .block {
+        position: relative;
+        
+        height: 100px;
+        padding: 20px;
+        background-color: #dcddde;
+        margin-right: 80px ;
+        border-radius: 15px 15px 3px 15px
+    }
+
+    .blockhead {
+        display: flex;
+        position: absolute;
+        color:#36393f ;
+        left: 30px;
+        top: 5px;
+        
+        
+    }
+
+    .blockhead h2 {
+        margin: 5px;
+    }
+
+    .txt {
+        color: #36393f;
+    }
+
+    .pngrek {
+        width:40px ;
+        height: 40px;
+        /* left: 10px; */
+        /* top: 10px; */
+    }
+
+
+    .taxilogo {
+
+        
+        padding: 0px;
+        width: 20%;
+        margin: auto;
+    }
+
+    .midle  {
+        margin: auto;
+        width: 35%;
+        /* width: 400px; */
+        
+    }
